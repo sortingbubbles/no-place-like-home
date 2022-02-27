@@ -1,0 +1,36 @@
+
+header {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding: 20px;
+}
+
+
+
+.toilet-paper {
+    width: 120px;
+    height: auto;
+    margin-left: 20px;
+}
+
+section {
+    background-color: lavender;
+    padding: 20px;
+    font-family: sans-serif;
+    max-width: 560px;
+    margin: auto;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        font-size: 24px;
+    }
+    .toilet-paper {
+        width: 60px;
+    }
+}
+  
