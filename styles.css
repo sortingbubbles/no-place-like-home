@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url('caveat-variablefont_wght-webfont.woff2') format('woff2'),
+         url('caveat-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 header {
     margin: 20px auto;
@@ -17,11 +24,15 @@ header {
 }
 
 section {
+    font-family: 'Caveat';
     background-color: lavender;
     padding: 20px;
-    font-family: sans-serif;
-    max-width: 560px;
+    max-width: 200px;
+    font-size: 18px;
     margin: auto;
+    background-color: #fff740;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transform: rotate(2deg);
 }
 
 
