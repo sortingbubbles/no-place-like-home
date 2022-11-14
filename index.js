@@ -3,9 +3,9 @@ const places = ['cocina', 'sala', 'basura']
 
 function getCurrentWeekNumberOfTheMonth() {
   const currentDate = new Date();
-  const startDate = new Date(currentDate.getFullYear(), 0, 1);
+  const startDate = new Date(currentDate.getFullYear(), 0, 3);
   const days = Math.floor((currentDate - startDate) / (24 * 60 * 60 * 1000));
-  const weekNumber = Math.floor((currentDate.getDay() + 1 + days) / 7);
+  const weekNumber = Math.ceil((currentDate.getDay() + 1 + days) / 7);
   return weekNumber
 }
 
